@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter', sans-serif;
+}
+
+body{
+	background-color: #E4F1FD;
+	overflow-x: hidden;
+	padding: 10px;
+}
+
+
+header{
+	width: 100%;
+	height: 140	px;
+
+}
+
+header > h1{
+	background-color: white;	
+	text-align: center;
+	width: 100%;
+}
+
+#pesquisa{
+	margin: 0 auto;
+	margin-top: -15px;
+	width: 1040px;
+}
+#pesquisa > input{
+	width: 700px;
+	height: 30px;
+	padding: 5px;
+	background-color: #E0E0E0;
+	border: none;
+}
+
+label{
+	position: relative;
+	top: 16px;
+}
+
+#pesquisa > .links-imagens{
+	width: 40px;
+	position: relative;
+	top: 14px;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+nav{
+	position: relative;
+	top: -10px;
+}
+
+ul{
+	list-style: none;
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+	top: 30px;
+}
+
+ul > li{
+	display: inline-block;
+	margin-left: 60px;
+}
+
+ul > li > a{
+	text-decoration: none;
+	font-size: 18pt;
+	color: #000;
+}
+
+hr{
+	margin-top: 10px;
+	height: 10px;
+	width: 100%;
+	background-color: white;
+	border: none;
+}
+
+.imagem-centro{
+	margin-top: 10px;
+	width: 180vh;
+}
+
+.imagem-baixo{
+	width: 175vh;
+}
